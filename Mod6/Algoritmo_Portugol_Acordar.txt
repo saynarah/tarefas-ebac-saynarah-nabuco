@@ -1,0 +1,24 @@
+Algoritmo para acordar
+
+1) É dia de trabalho (segunda OU terça OU quarta OU quinta OU sexta)? Sim
+2) O alarme do celular toca.
+3) Abro os olhos.
+4) Me viro na cama para pegar o celular na mesa de cabeceira.
+5) Eu abro a gaveta.
+6) Pego o celular na mão.
+7) Deslizo o dedo na tela para desativar o alarme.
+8) Coloco o celular de volta na gaveta.
+9) Fecho a gaveta.
+10) Sento na cama.
+11) Olho pra baixo.
+12) Procuro a chinela.
+13) Encaixo a chinela nos pés.
+14) Levanto da cama.
+
+Não
+1) Abro os olhos.
+2) Sento na cama.
+3) Olho pra baixo.
+4) Procuro a chinela.
+5) Encaixo a chinela nos pés.
+Levanto da cama.
