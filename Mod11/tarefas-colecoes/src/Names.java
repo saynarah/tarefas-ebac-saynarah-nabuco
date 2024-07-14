@@ -9,7 +9,7 @@ public class Names {
 
 
         //Ler os dados do console
-        System.out.print("Insira os nomes separados por vírgula:");
+        System.out.print("Insira os nomes separados por vírgula:"); 
 
         raw_names = scanner.nextLine();
 
