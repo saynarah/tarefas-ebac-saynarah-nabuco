@@ -13,7 +13,7 @@ public class Names {
 
         raw_names = scanner.nextLine();
 
-        System.out.println("**** Lista de nomes fornecida **** ");
+        System.out.println("**** Lista de nomes fornecida **** "); 
         System.out.println(raw_names);
         System.out.println();
 
