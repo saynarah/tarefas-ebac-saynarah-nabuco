@@ -1,0 +1,21 @@
+1 – Customer
+Propriedades privadas do Customer
+Construtor
+Métodos getters
+
+2 – Factory (classe abstrata)
+Método público de criação do carro
+Método privado para preparar o carro
+Método abstrato de escolha do carro – depende da demanda do cliente
+
+3 – ‘ContratosFactory’ - Clientes filiados têm seus pedidos direcionados para a fábrica ‘ContratosFactory’ 
+
+4 – ‘SemContratosFactory’ – Clientes não filiados têm seus pedidos direcionados para a fábrica ‘SemContratosFactory’.
+
+5 – Car (classe abstrata)
+Possui 4 métodos simples baseados nas características de cada carro a ser produzido.
+
+6 – Fusca, Brasilia, Corola e Hilux estendem de Car, sendo ‘Fusca’ e ‘Brasilia’ produzidos pela fábrica ‘SemContratosFactory’ e ‘Corola’ e ‘Hilux’ são produzidos pela fábrica ‘ContratosFactory’.
+
+7 – Demo 
+Recebe o pedido e entrega o produto final.
