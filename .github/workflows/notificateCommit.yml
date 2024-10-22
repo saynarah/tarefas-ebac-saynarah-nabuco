@@ -20,10 +20,12 @@ jobs:
         server_port: ${{ secrets.SMTP_PORT }}
         username: ${{ secrets.SMTP_USER }}
         password: ${{ secrets.SMTP_PASSWORD }}
+        from: ${{ secrets.SMTP_USER }}
+        to: 'saynarah.nabuco@gmail.com'
         subject: 'New Commit Notification on GitHub'
         body: |
           A new commit was made in your repository.
           Commit message: ${{ github.event.head_commit.message }}
           Commit by: ${{ github.event.head_commit.author.name }}
-        to: 'saynarah.nabuco@gmail.com'
-        from: ${{ secrets.SMTP_USER }} 
+        
+        
