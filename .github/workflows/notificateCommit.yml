@@ -1,40 +1,29 @@
-name: Tarefas Ebac
+name: Send Email on Commit
 
-on:
-  push:
+on: 
+  push: 
     branches:
-      - main
-  pull_request:
-    branches:
-      - main
+      - main  # Replace with the branch you want to monitor (e.g., master)
 
 jobs:
-  build_and_test:
-    name: Send Mail
+  send_email:
     runs-on: ubuntu-latest
-    if: always()
+
     steps:
-      - name: Send email notification
-        uses: dawidd6/action-send-mail@v2
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          username: ${{ secrets.EMAIL_USERNAME }}
-          password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: ${{ github.workflow }} - ${{ github.job }} has ${{ job.status }}
-          body: |
-            ${{ github.actor }} created commit:
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-            Commit message: ${{ github.event.commits[0].message }}
-            
-            Repository: ${{ github.repository }}
-
-            Job: ${{ github.job }}
-            
-            Worflow: ${{ github.workflow }}
-
-            Workflow Status: ${{ job.status }}
-
-            See changes: https://github.com/${{ github.repository }}/commit/${{ github.sha }}
-          to: saynarah.nabuco@gmail.com
-          from: GitHub Actions Notifications
+    - name: Send email notification
+      uses: dawidd6/action-send-mail@v3
+      with:
+        server_address: ${{ secrets.SMTP_SERVER }}
+        server_port: ${{ secrets.SMTP_PORT }}
+        username: ${{ secrets.SMTP_USER }}
+        password: ${{ secrets.SMTP_PASSWORD }}
+        subject: 'New Commit Notification on GitHub'
+        body: |
+          A new commit was made in your repository.
+          Commit message: ${{ github.event.head_commit.message }}
+          Commit by: ${{ github.event.head_commit.author.name }}
+        to: 'saynarah.nabuco@gmail.com'
+        from: ${{ secrets.SMTP_USER }}
