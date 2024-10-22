@@ -26,4 +26,4 @@ jobs:
           Commit message: ${{ github.event.head_commit.message }}
           Commit by: ${{ github.event.head_commit.author.name }}
         to: 'saynarah.nabuco@gmail.com'
-        from: ${{ secrets.SMTP_USER }}
+        from: ${{ secrets.SMTP_USER }} 
