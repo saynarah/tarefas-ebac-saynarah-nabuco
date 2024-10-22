@@ -18,9 +18,9 @@ jobs:
       with:
         server_address: ${{ secrets.SMTP_SERVER }}
         server_port: ${{ secrets.SMTP_PORT }}
-        username: ${{ secrets.SMTP_USER }}
-        password: ${{ secrets.SMTP_PASSWORD }}
-        from: ${{ secrets.SMTP_USER }}
+        username: ${{ secrets.EMAIL_USERNAME }}
+        password: ${{ secrets.EMAIL_PASSWORD }}
+        from: ${{ secrets.EMAIL_USER }}
         to: 'saynarah.nabuco@gmail.com'
         subject: 'New Commit Notification on GitHub'
         body: |
