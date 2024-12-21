@@ -1,4 +1,4 @@
-# Usando Reflections para imprimir o nome da tabela - informação salva via Annotation
+# Usando Streams para filtrar nomes de uma lista - via Lambda Expressions
 
 ## Módulo 22 - Especialista Back-end Java (EBAC)
 
