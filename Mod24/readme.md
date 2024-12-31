@@ -23,3 +23,5 @@ Realizar testes de métodos utilizando Mock das classes Dao e orientados pela me
 4. Cria uma classe 'ContratoDaoMock', não dependente do BD, para realizar os testes sobre os métodos;
 5. Cada método vai ser testado duas vezes, por exemplo: 'testandoMetodoAtualizar' e 'esperandoErroMetodoAtualizar'. O 'testandoMetodoAtualizar' testa recebendo a classe 'ContratoDaoMock' como input;
 6. Realiza os 8 testes (2 para cada um dos 4 Métodos).  
+
+
