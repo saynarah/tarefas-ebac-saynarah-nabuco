@@ -20,7 +20,6 @@ jobs:
         server_port: ${{ secrets.SMTP_PORT }}
         username: ${{ secrets.EMAIL_USERNAME }}
         password: ${{ secrets.EMAIL_PASSWORD }}
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
         from: ${{ secrets.EMAIL_USERNAME }}
         to: 'saynarah.nabuco@gmail.com'
         subject: 'New Commit Notification on GitHub'
