@@ -1,4 +1,4 @@
-# Projeto de Cadastro de Clientes (CRUD, Generics, Tests, TDD) 
+# Por dentro do PostgreSQL 
 
 ## Módulo 26 - Especialista Back-end Java (EBAC)
 
