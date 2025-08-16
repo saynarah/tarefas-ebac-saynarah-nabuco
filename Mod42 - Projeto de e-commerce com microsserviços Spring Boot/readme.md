@@ -21,12 +21,12 @@ Integração de microsserviços de um e-commerce (cliente, produto e venda).
 2. Adicionar as seguintes dependências para o projeto ConfigServer: Config Server, Spring Web, Spring Boot DevTools e Lombok;
 3. Adicionar as seguintes dependências para os projetos dos microsserviços Cliente, Produto e Venda: Spring Data MongoDB, Spring Web, Validation, Config Client, OpenFeign, Spring Boot DevTools, Lombok, Spring Doc e Boostrap;
 
-Projeto ConfigServer:
+#### Projeto ConfigServer:
 4. Configura o application.properties do ConfigServer;
 5. Adiciona as configurações dos arquivos cliente-service.yml, produto-service e venda-service ao diretório "\ConfigServer\src\main\resources\config";
 6. Adiciona anotações a classe ConfigServerApplication.
 
-Projeto ClienteService:
+#### Projeto ClienteService:
 7. Configura o application.properties do ClienteService;
 8. Adiciona anotações a classe ClienteServiceApplication;
 9. Cria a entidade Cliente dentro do pacote 'domain';
@@ -37,10 +37,10 @@ Projeto ClienteService:
 14. Cria a classe 'ClienteResource' dentro do pacote 'resources' para o RestController dos métodos. Os seguintes endpoints estão disponíveis: GET (isCadastrado, buscarPorId e buscar), POST(cadastrar), PUT(atualizar) e DELETE(remover).
 
 
-Projeto ProdutoService:
+#### Projeto ProdutoService:
 15. Os passos 7 ao 14 se repetem para o projeto ProdutoService.
 
-Projeto VendaService:
+#### Projeto VendaService:
 16. Configura o application.properties do VendaService;
 17. Adiciona anotações a classe VendaServiceApplication;
 18. Cria a entidade Venda, Produto e ProdutoQuantidade dentro do pacote 'domain';
