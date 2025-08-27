@@ -2,6 +2,8 @@
 
 ## Desenvolvedora: Saynarah Cruz Nabuco
 
+#### Mod45 - Recursividade e Programação Dinâmica
+#### Mod44 - Estruturas de dados e algoritmos
 #### Mod42 - Projeto de e-commerce com microsserviços Spring Boot
 #### Mod41 - Conceitos de microsserviços
 #### Mod40 - Projeto CRUD Cliente com Spring Boot
