@@ -2,6 +2,8 @@
 
 ## Desenvolvedora: Saynarah Cruz Nabuco
 
+
+#### Mod46 - Backtracking e Algoritmo Guloso
 #### Mod45 - Recursividade e Programação Dinâmica
 #### Mod44 - Estruturas de dados e algoritmos
 #### Mod42 - Projeto de e-commerce com microsserviços Spring Boot
