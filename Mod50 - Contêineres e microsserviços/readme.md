@@ -10,6 +10,8 @@
 * Kubernetes
 * Docker
 * VM
+* CI/CD
+* Deployment
 
 
 ## Exercício 1 – Contêineres e microsserviços
