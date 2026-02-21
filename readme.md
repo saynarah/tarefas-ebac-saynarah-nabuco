@@ -2,6 +2,7 @@
 
 ## Desenvolvedora: Saynarah Cruz Nabuco
 
+#### Mod52 - API SpringBoot - Animals' service
 #### Mod51 - 12 Fatores do Design de Microsserviços
 #### Mod50 - Contêineres e Microsserviços
 #### Mod49 - Monolitos vs Microsserviços
